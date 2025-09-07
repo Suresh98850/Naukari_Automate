@@ -58,7 +58,7 @@ public  void FirstTest1() throws InterruptedException {
 		driver.findElement(By.xpath("//*[text()=' profile']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Suresh Bathula\\Desktop\\Suresh_Automation_ResumeCV.pdf");
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		FirstTest2();
 		
 	}
