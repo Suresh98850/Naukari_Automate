@@ -1,8 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="NaukriSuite">
+<suite name="NaukriSuite" parallel="tests" thread-count="2">
     <test name="NaukriTests">
         <classes>
             <class name="TestNGFramework.FirstTest"/>
+        </classes>
+    </test>
+<test name="NaukriTest">
+        <classes>
+            <class name="TestNGFramework.FirstTest2"/>
         </classes>
     </test>
 </suite>
