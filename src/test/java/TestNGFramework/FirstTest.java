@@ -43,7 +43,7 @@ public  class FirstTest {
 		driver.findElement(By.xpath("//*[text()=' profile']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Suresh Bathula\\Documents\\Suresh-Documents\\Suresh_Automation_Resume1.pdf");
-		Thread.sleep(4000);
+		Thread.sleep(5000);
 		//driver.quit();
 		Thread.sleep(20000);
 	   }
