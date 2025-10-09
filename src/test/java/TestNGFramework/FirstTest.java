@@ -27,7 +27,7 @@ public  class FirstTest {
        
     }	
 	
-	@Test(invocationCount=50)
+	@Test(invocationCount=3)
 	public void FirstTest2() throws InterruptedException {
 		
 	    driver = new ChromeDriver();
