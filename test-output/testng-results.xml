@@ -1,65 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-09T15:43:23 IST" name="NaukriSuite" finished-at="2025-10-09T15:45:36 IST" duration-ms="132694">
+  <suite started-at="2025-10-09T18:53:02 IST" name="Default suite" finished-at="2025-10-09T18:53:02 IST" duration-ms="48">
     <groups>
     </groups>
-    <test started-at="2025-10-09T15:43:23 IST" name="NaukriTest" finished-at="2025-10-09T15:45:13 IST" duration-ms="109404">
-      <class name="TestNGFramework.FirstTest2">
-        <test-method signature="FirstTest1()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:43:23 IST" name="FirstTest1" finished-at="2025-10-09T15:44:03 IST" duration-ms="39617" status="PASS">
+    <test started-at="2025-10-09T18:53:02 IST" name="Default test" finished-at="2025-10-09T18:53:02 IST" duration-ms="48">
+      <class name="TestNGFramework.Excell">
+        <test-method signature="take(java.lang.String,java.lang.String)[pri:0, instance:TestNGFramework.Excell@3590fc5b]" started-at="2025-10-09T18:53:02 IST" name="take" data-provider="getdata" finished-at="2025-10-09T18:53:02 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:44:03 IST" name="tearDown" finished-at="2025-10-09T15:44:03 IST" duration-ms="638" status="PASS">
+        </test-method> <!-- take -->
+        <test-method signature="take(java.lang.String,java.lang.String)[pri:0, instance:TestNGFramework.Excell@3590fc5b]" started-at="2025-10-09T18:53:02 IST" name="take" data-provider="getdata" finished-at="2025-10-09T18:53:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="FirstTest1()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:44:03 IST" name="FirstTest1" finished-at="2025-10-09T15:44:37 IST" duration-ms="33594" status="PASS">
+        </test-method> <!-- take -->
+        <test-method signature="take(java.lang.String,java.lang.String)[pri:0, instance:TestNGFramework.Excell@3590fc5b]" started-at="2025-10-09T18:53:02 IST" name="take" data-provider="getdata" finished-at="2025-10-09T18:53:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FirstTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:44:37 IST" name="tearDown" finished-at="2025-10-09T15:44:37 IST" duration-ms="400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="FirstTest1()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:44:37 IST" name="FirstTest1" finished-at="2025-10-09T15:45:12 IST" duration-ms="34549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstTest1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest2@40005471]" started-at="2025-10-09T15:45:12 IST" name="tearDown" finished-at="2025-10-09T15:45:12 IST" duration-ms="497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestNGFramework.FirstTest2 -->
-    </test> <!-- NaukriTest -->
-    <test started-at="2025-10-09T15:43:23 IST" name="NaukriTests" finished-at="2025-10-09T15:45:36 IST" duration-ms="132694">
-      <class name="TestNGFramework.FirstTest">
-        <test-method signature="FirstTest2()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:43:23 IST" name="FirstTest2" finished-at="2025-10-09T15:44:12 IST" duration-ms="49347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:44:12 IST" name="tearDown" finished-at="2025-10-09T15:44:13 IST" duration-ms="459" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="FirstTest2()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:44:13 IST" name="FirstTest2" finished-at="2025-10-09T15:44:56 IST" duration-ms="42882" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:44:56 IST" name="tearDown" finished-at="2025-10-09T15:44:56 IST" duration-ms="336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="FirstTest2()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:44:56 IST" name="FirstTest2" finished-at="2025-10-09T15:45:35 IST" duration-ms="39313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FirstTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNGFramework.FirstTest@7b98f307]" started-at="2025-10-09T15:45:35 IST" name="tearDown" finished-at="2025-10-09T15:45:36 IST" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestNGFramework.FirstTest -->
-    </test> <!-- NaukriTests -->
-  </suite> <!-- NaukriSuite -->
+        </test-method> <!-- take -->
+      </class> <!-- TestNGFramework.Excell -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

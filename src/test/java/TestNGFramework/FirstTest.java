@@ -40,9 +40,9 @@ public  class FirstTest {
 		driver.findElement(By.xpath("//*[@placeholder='Enter your password']")).sendKeys("Suresh@1998");
 		driver.findElement(By.xpath("(//*[@type='submit'])[1]")).click();
 		//driver.findElement(By.xpath("//*[@class='crossIcon chatBot chatBot-ic-cross']")).click();
-		driver.findElement(By.xpath("//*[text()=' profile']")).click();
+		driver.findElement(By.xpath("//*[text()='profile']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Suresh Bathula\\Documents\\Suresh-Documents\\Suresh_Automation_Resume1.pdf");
+		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Suresh_Automation_Resume1.pdf");
 		Thread.sleep(5000);
 		//driver.quit();
 		Thread.sleep(20000);
