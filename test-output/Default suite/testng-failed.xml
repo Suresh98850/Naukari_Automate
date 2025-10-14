@@ -5,7 +5,6 @@
     <classes>
       <class name="TestNGFramework.FirstTest">
         <methods>
-          <include name="tearDown"/>
           <include name="FirstTest2"/>
         </methods>
       </class> <!-- TestNGFramework.FirstTest -->

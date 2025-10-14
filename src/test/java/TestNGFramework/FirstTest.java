@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public  class FirstTest {
@@ -27,8 +28,8 @@ public  class FirstTest {
        
     }	
 	
-	@Test(invocationCount=3)
-	public void FirstTest2() throws InterruptedException {
+	@Test(dataProvider="getdata")
+	public void FirstTest2(String username, String password, String resume) throws InterruptedException {
 		
 	    driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -36,17 +37,33 @@ public  class FirstTest {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//*[text()='Login']")).click();
 		
-		driver.findElement(By.xpath("//*[@placeholder='Enter your active Email ID / Username']")).sendKeys("sureshvarsh34@gmail.com");
-		driver.findElement(By.xpath("//*[@placeholder='Enter your password']")).sendKeys("Suresh@1998");
+		driver.findElement(By.xpath("//*[@placeholder='Enter your active Email ID / Username']")).sendKeys(username);
+		driver.findElement(By.xpath("//*[@placeholder='Enter your password']")).sendKeys(password);
 		driver.findElement(By.xpath("(//*[@type='submit'])[1]")).click();
 		//driver.findElement(By.xpath("//*[@class='crossIcon chatBot chatBot-ic-cross']")).click();
 		driver.findElement(By.className("view-profile-wrapper")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.id("attachCV")).sendKeys("C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Suresh_Automation_Resume1.pdf");
+		driver.findElement(By.id("attachCV")).sendKeys(resume);
 		Thread.sleep(5000);
 		//driver.quit();
 		Thread.sleep(20000);
 	   }
+	@DataProvider
+	public Object[][] getdata() {
+		Object [][] data=new Object [3][3];
+		data[0][0]="sureshvarsh34@gmail.com";
+		data[0][1]="Suresh@1998";
+		data[0][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Suresh_Automation_Resume1.pdf";
+		data[1][0]="bathulasuresh518@gmail.com";
+		data[1][1]="Suresh@1998";
+		data[1][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Suresh_Automation_Resume2.pdf";
+		data[2][0]="nareshbathula057@gmail.com";
+		data[2][1]="Naresh@2000";
+		data[2][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Naresh_resume_resume.pdf";
+		
+		return data;
+		
+	}
 	
 
 	@AfterMethod
