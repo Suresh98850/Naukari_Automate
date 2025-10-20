@@ -59,7 +59,7 @@ public  class FirstTest {
 		data[1][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Suresh_Automation_Resume2.pdf";
 		data[2][0]="nareshbathula057@gmail.com";
 		data[2][1]="Naresh@2000";
-		data[2][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Naresh_resume_resume.pdf";
+		data[2][2]="C:\\Users\\Suresh Bathula\\eclipse-workspace\\artifact\\Naukarifiles\\Naresh_resume_resume1.pdf";
 		
 		return data;
 		
