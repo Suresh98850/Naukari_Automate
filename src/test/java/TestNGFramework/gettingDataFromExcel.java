@@ -24,7 +24,7 @@ public class gettingDataFromExcel {
 		
 		FileInputStream fis=new FileInputStream("C:\\Users\\Suresh Bathula\\Desktop\\productiondata.xlsx");
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
-		ArrayList<String> a =new  ArrayList<>();
+		ArrayList<String> a =new  ArrayList<String>();
 		int sheetcount=wb.getNumberOfSheets();
 		for(int i=0;i<sheetcount;i++) {
 			if(wb.getSheetName(i).equalsIgnoreCase("prodData")) {
